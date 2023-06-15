@@ -8,7 +8,6 @@ function Home() {
     useEffect(()=>{
         coolTips(mytip)
         .then(({data})=>{
-            console.log(data);
             setTips(data)
         })
     },[mytip])
@@ -16,6 +15,9 @@ function Home() {
     const findTip=(tips)=>{
         setMytip(tips);
     }
+
+    let myTips=tip?.data
+    console.log(myTips);
   return (
     <div>
         <div>
