@@ -9,3 +9,37 @@
     top: 50%;
     position: fixed;
 }
+.data{
+    padding: .2em;
+    border: 1px solid green;
+}
+.results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fresult{
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+.finder{
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+   margin-bottom: .7em;                    
+}
+.btn{
+    margin-bottom: .7em;
+    
+}
+.date{
+    padding: .2em;
+}
+.button{
+    padding: .2em;
+    justify-content: stretch;
+    width: 100%;
+}

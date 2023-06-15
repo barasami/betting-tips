@@ -26,36 +26,34 @@ function Home() {
     console.log(myTips);
 
     let tipsResult=myTips?.map((datas)=>{
-        const{home_team,away_team,id,prediction,result,competition_cluster}=datas
+        const{home_team,away_team,id,prediction,result,competition_cluster,status}=datas
         return(
-            <div key={id}>
-                <div>
-                    <table>
-                        <tr>
-                            <td>{home_team}</td>
-                            <td>{away_team}</td>
-                            <td>{prediction}</td>
-                            <td>{result}</td>
-                            <td>{competition_cluster}</td>
-                        </tr>
-                    </table>
-                </div>
-
-            </div>
+            <tr key={id}>
+                <td className='data'>{competition_cluster}</td>
+                <td className='data'>{home_team}</td>
+                <td className='data'>V/s</td>
+                <td className='data'>{away_team}</td>
+                <td className='data'>{prediction}</td>
+                <td className='data'>{result}</td>
+                <td className='data'>{status}</td>
+                
+            </tr>
         )
     })
   return (
-    <div>
-        <div>
-            <Form findTip={findTip}/>
-        </div>
-        <div>
-            {load ? <CircularProgress color='inherit' className='circular'/> : 
-            <div>
-                {tipsResult}
+    <div className='results'>
+       <div className='fresult'>
+            <div className='finder'>
+                <Form findTip={findTip}/>
             </div>
-            }
-        </div>
+            <div>
+                {load ? <CircularProgress color='inherit' className='circular'/> : 
+                <div>
+                    {tipsResult}
+                </div>
+                }
+            </div>
+       </div>
     </div>
   )
 }

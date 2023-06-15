@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Home.css'
 
 function Form({findTip}) {
     const[date,setDate]=useState(' ')
@@ -17,11 +18,11 @@ function Form({findTip}) {
     <div>
         <div>
             <form onSubmit={submitData}>
-                <div>
-                    <input type='date' value={date} onChange={(e)=>setDate(e.target.value)}/>
+                <div className='input'>
+                    <input type='date' value={date} onChange={(e)=>setDate(e.target.value)} className='date'/>
                 </div>
-                <div>
-                    <button>Search</button>
+                <div className='btn'>
+                    <button className='button'>Search</button>
                 </div>
             </form>
         </div>
