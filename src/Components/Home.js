@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { coolTips } from './tips'
 import Form from './Form'
 import CircularProgress from '@mui/material/CircularProgress';
+import './Home.css'
 
 
 function Home() {
