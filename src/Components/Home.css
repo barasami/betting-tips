@@ -13,6 +13,35 @@
     padding: .2em;
     border: 1px solid green;
 }
+.data_country{
+    padding: .2em;
+    border: 1px solid green;
+    text-transform: uppercase;
+}
+.data_home{
+    padding: .2em;
+    border: 1px solid green;
+}
+.data_vs{
+    padding: .2em;
+    border: 1px solid green;
+}
+.data_away{
+    padding: .2em;
+    border: 1px solid green;
+}
+.data_diction{
+    padding: .2em;
+    border: 1px solid green;
+}
+.data_result{
+    padding: .2em;
+    border: 1px solid green;
+}
+.data_status{
+    padding: .2em;
+    border: 1px solid green;
+}
 .results{
     display: flex;
     align-items: center;
@@ -37,9 +66,31 @@
 }
 .date{
     padding: .2em;
+    border: 1px solid seagreen;
 }
 .button{
     padding: .2em;
     justify-content: stretch;
     width: 100%;
+    border: 1px solid seagreen;
+    background-color: seagreen;
+    color: white;
+}
+.footer{
+    left: 0px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+.footcontent{
+    height: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: seagreen;
+   
 }
