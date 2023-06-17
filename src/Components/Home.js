@@ -3,16 +3,16 @@ import { coolTips } from './tips'
 import Form from './Form'
 import CircularProgress from '@mui/material/CircularProgress';
 import './Home.css'
-import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
+// import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
 
 
 function Home() {
-    let today=new Date()
-    let f=Intl.DateTimeFormat('en-us',{
-        dateStyle:'short'
-    })
-    let predictionDate=f.format(today).toString()
-    console.log(predictionDate);
+    // let today=new Date()
+    // let f=Intl.DateTimeFormat('en-us',{
+    //     dateStyle:'short'
+    // })
+    // let predictionDate=f.format(today).toString()
+    // console.log(predictionDate);
     
     const[tip,setTips]=useState([])
     const[load,setLoad]=useState(false)
