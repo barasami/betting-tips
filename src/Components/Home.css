@@ -16,42 +16,44 @@
 }
 .data_country{
     padding: .2em;
-    border: 1px solid green;
+    border: 1px solid rgb(45, 227, 45);
     text-transform: uppercase;
     color: #212121;
 }
 .data_home{
     padding: .2em;
-    border: 1px solid green;
+    border: 1px solid rgb(45, 227, 45);
 }
 .data_vs{
     padding: .2em;
-    border: 1px solid green;
+    border: 1px solid rgb(45, 227, 45);
 }
 .data_away{
     padding: .2em;
-    border: 1px solid green;
+    border: 1px solid rgb(45, 227, 45);
 }
 .data_diction{
     padding: .2em;
-    border: 1px solid green;
+    border: 1px solid rgb(45, 227, 45);
 }
 .data_result{
     padding: .2em;
-    border: 1px solid green;
+    border: 1px solid rgb(45, 227, 45);
 }
 .data_status{
     padding: .2em;
-    border: 1px solid green;
+    border: 1px solid rgb(45, 227, 45);
 }
 .results{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* height:100vh ; */
 }
 .fresult{
     margin-top: 2.5em;
     margin-bottom: 2.5em;
+    /* position: fixed; */
 }
 .finder{
     margin-bottom: 2em;
@@ -103,32 +105,32 @@
 @media screen and (max-width: 300px) {
     .data_country{
         padding: .1em;
-        border: .5px solid green;
+        border: .5px solid rgb(45, 227, 45);
         text-transform: uppercase;
     }
     .data_home{
         padding: .1em;
-        border: .5px solid green;
+        border: .5px solid rgb(45, 227, 45);
     }
     .data_vs{
         padding: .1em;
-        border: .5px solid green;
+        border: .5px solid rgb(45, 227, 45);
     }
     .data_away{
         padding: .1em;
-        border: .5px solid green;
+        border: .5px solid rgb(45, 227, 45);
     }
     .data_diction{
         padding: .1em;
-        border: .5px solid green;
+        border: .5px solid rgb(45, 227, 45);
     }
     .data_result{
         padding: .1em;
-        border: .5px solid green;
+        border: .5px solid rgb(45, 227, 45);
     }
     .data_status{
         padding: .1em;
-        border: .5px solid green;
+        border: .5px solid rgb(45, 227, 45);
     }
     .results{
         display: flex;
