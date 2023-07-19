@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    color:white;
     
     
 }
@@ -18,7 +19,6 @@
     padding: .2em;
     border: 1px solid rgb(45, 227, 45);
     text-transform: uppercase;
-    color: #212121;
 }
 .data_home{
     padding: .2em;
@@ -48,6 +48,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(rgba(12, 13, 11, 0.6),rgba(7, 8, 8, 0.6)),url(../../public/vegas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     /* height:100vh ; */
 }
 .fresult{
@@ -102,7 +106,7 @@
    
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 900px) {
     .data_country{
         padding: .1em;
         border: .5px solid rgb(45, 227, 45);
